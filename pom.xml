@@ -11,8 +11,12 @@
     <groupId>top.xym</groupId>
     <artifactId>Spring-boot-practice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>Spring-boot-practice</name>
     <description>Spring-boot-practice</description>
+    <modules>
+        <module>spring-boot-quickstart</module>
+    </modules>
 
     <properties>
 <!--        <java.version>17</java.version>-->
