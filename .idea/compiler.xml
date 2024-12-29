@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-quickstart" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-boot-practice" options="" />
       <module name="spring-boot-quickstart" options="-parameters" />
+      <module name="spring-boot-thymeleaf" options="-parameters" />
     </option>
   </component>
 </project>

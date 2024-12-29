@@ -9,3 +9,4 @@
   - 练习5：使用 Stream API 实现简单的用户过滤功能
   - Spring Boot 启动分析
   - IDEA环境下的热加载
+- spring-boot-thymeleaf：模板引擎模块
