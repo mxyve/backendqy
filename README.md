@@ -10,3 +10,5 @@
   - Spring Boot 启动分析
   - IDEA环境下的热加载
 - spring-boot-thymeleaf：模板引擎模块
+  - 使用日志进行调试
+  - 断点调试示例代码
