@@ -6,10 +6,19 @@
 ##    com.example.demo 是包的路径，DEBUG 级别将显示详细的调试信息
 #    com.example.demo: debug
 
+#spring:
+#  devtools:
+#    remote:
+#      enabled: true    # 启动远程调试
+#      secret: mysecret # 设置远程连接的密钥，用于安全验证
+#      restart:
+#        enabled: true  # 启用远程重启功能
+
+# 这样设置后，每次修改完代码，不管手动编译还是自动编译，都无法热更新，必须直接重启。
 spring:
   devtools:
-    remote:
-      enabled: true    # 启动远程调试
-      secret: mysecret # 设置远程连接的密钥，用于安全验证
-      restart:
-        enabled: true  # 启用远程重启功能
+    restart:
+      enabled: false # 禁用自动重启
+    livereload:
+      enabled: false # 禁用 LiveReload
+
