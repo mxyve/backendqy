@@ -14,11 +14,18 @@
 #      restart:
 #        enabled: true  # 启用远程重启功能
 
-# 这样设置后，每次修改完代码，不管手动编译还是自动编译，都无法热更新，必须直接重启。
+## 这样设置后，每次修改完代码，不管手动编译还是自动编译，都无法热更新，必须直接重启。
+#spring:
+#  devtools:
+#    restart:
+#      enabled: false # 禁用自动重启
+#    livereload:
+#      enabled: false # 禁用 LiveReload
+
+# 监听文件的更改
 spring:
   devtools:
     restart:
-      enabled: false # 禁用自动重启
-    livereload:
-      enabled: false # 禁用 LiveReload
+      additional-paths:
+        - src/main/resources/config # 监听 config 目录下的文件变化
 
