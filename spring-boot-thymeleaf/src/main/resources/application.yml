@@ -29,31 +29,35 @@
 #      additional-paths:
 #        - src/main/resources/config # 监听 config 目录下的文件变化
 
+#spring:
+#  profiles:
+#    active: dev
+#
+#    devtools:
+#      restart:
+#        enabled: true          # 启用自动重启
+#        exclude:               # 排除不处罚重启的路径
+#          - static/**
+#          - public/**
+#        additional-paths:      # 监控额外路径
+#          - src/main/resources/config
+#        additional-exclude:
+#          - src/main/resources/**/*.md            # 排除 Markdown 文件的变更
+#      livereload:
+#        enabled: true          # 启用 LiveReload
+#        port: 35729            # 设置 LiveReload 的端口号
+#
+#remote:
+#        enabled: false         # 禁用远程调试
+#        secret: mysecret       # 如果启用远程调试，请设置安全密钥
+#
+#thymeleaf:
+#  cache: false                 # 禁用 Thymeleaf 缓存
+#
+#mvc:
+#  cache-period: 0              # 禁用静态资源缓存
+#  log-resolved-exception: true # 启用异常日志
+
 spring:
-  profiles:
-    active: dev
-
-    devtools:
-      restart:
-        enabled: true          # 启用自动重启
-        exclude:               # 排除不处罚重启的路径
-          - static/**
-          - public/**
-        additional-paths:      # 监控额外路径
-          - src/main/resources/config
-        additional-exclude:
-          - src/main/resources/**/*.md            # 排除 Markdown 文件的变更
-      livereload:
-        enabled: true          # 启用 LiveReload
-        port: 35729            # 设置 LiveReload 的端口号
-
-remote:
-        enabled: false         # 禁用远程调试
-        secret: mysecret       # 如果启用远程调试，请设置安全密钥
-
-thymeleaf:
-  cache: false                 # 禁用 Thymeleaf 缓存
-
-mvc:
-  cache-period: 0              # 禁用静态资源缓存
-  log-resolved-exception: true # 启用异常日志
+  thymeleaf:
+    cache: false # 禁用 Thymeleaf 缓存，以确保每次请求都加载最新的模板文件

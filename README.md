@@ -19,3 +19,4 @@
     - 禁用特定开发环境功能
     - 监听文件的更改
     - 示例：完整的 application.yml 配置
+  - 模板引擎 Thymeleaf
