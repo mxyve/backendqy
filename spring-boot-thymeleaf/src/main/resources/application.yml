@@ -5,3 +5,11 @@
 #    root: info
 ##    com.example.demo 是包的路径，DEBUG 级别将显示详细的调试信息
 #    com.example.demo: debug
+
+spring:
+  devtools:
+    remote:
+      enabled: true    # 启动远程调试
+      secret: mysecret # 设置远程连接的密钥，用于安全验证
+      restart:
+        enabled: true  # 启用远程重启功能
