@@ -13,7 +13,7 @@ public class GreetingController {
     }
 
     private String sayHello(String name) {
-        String greeting = "Hello, " + name;
+        String greeting = "你好90989890, " + name;
         return greeting;
     }
 }
