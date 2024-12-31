@@ -1,0 +1,22 @@
+#logging:
+#  level:
+#    # 指定整个系统的默认日志级别是info,日志级别统一化
+#    root: info
+#    # 指定某个特定的 package 的日志级别是 debug，日志级别个性化。优先级：个性化配置大于统一配置
+#    com.example.demo.controller: debug
+#  file:
+#    # 将日志输出到指定目录，默认名称是 spring.log
+#    path: ./logs
+#    # 配置了logging.file.name之后，logging.file.path 配置失效
+#    name: ./logs.spring-boot-log.log
+#  logback:
+#    rollingpolicy:
+#      # 分割的每个日志的文件最大容量，超过这个消息后日志继续分割
+#      max-file-size: 10MB
+#      # 设置保留的日志时间，以天为单位
+#      max-history: 10
+#  pattern:
+#    # 控制台输出日志的格式，为了在控制台调试时候显示效果更清晰，为日志增加了颜色，red、g  reen 等等
+#    console: '%red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)'
+#    # 输出到文件中的日志的格式
+#    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger : %msg%n'
