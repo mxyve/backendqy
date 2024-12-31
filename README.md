@@ -9,3 +9,15 @@
   - 练习5：使用 Stream API 实现简单的用户过滤功能
   - Spring Boot 启动分析
   - IDEA环境下的热加载
+- spring-boot-thymeleaf：模板引擎模块
+  - 使用日志进行调试
+  - 断点调试示例代码
+  - 断点调试练习
+  - 配置热更新
+  - 远程调试
+  - DevTools 的其他高级功能
+    - 禁用特定开发环境功能
+    - 监听文件的更改
+    - 示例：完整的 application.yml 配置
+  - 模板引擎 Thymeleaf
+  - 待办清单练习
