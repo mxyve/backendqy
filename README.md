@@ -24,3 +24,4 @@
 - spring-boot-logging：日志模块
   - logback日志框架配置
     - application配置文件实现日志配置
+    - 使用logback-spring.xml实现日志配置
