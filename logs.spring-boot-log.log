@@ -1,0 +1,236 @@
+2024-12-31 10:28:35.262 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 20756 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:28:35.265 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:28:35.321 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:28:35.321 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:28:36.342 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:28:36.356 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:28:36.356 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:28:36.409 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:28:36.409 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2024-12-31 10:28:36.773 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:28:36.806 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:28:36.814 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 2.205 seconds (process running for 3.345)
+2024-12-31 10:29:18.779 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 3648 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:29:18.782 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:29:18.832 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:29:18.833 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:29:19.840 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:29:19.855 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:29:19.855 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:29:19.910 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:29:19.910 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+2024-12-31 10:29:20.340 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-12-31 10:29:20.363 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-31 10:29:20.381 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-31 10:29:20.406 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-31 10:32:07.774 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-12-31 10:32:07.778 INFO  [Thread-5] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-31 10:32:08.290 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Graceful shutdown complete
+2024-12-31 10:32:08.287 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 20740 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:32:08.291 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:32:08.348 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:32:08.348 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:32:08.382 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 20756 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:32:08.382 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:32:08.660 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:32:08.661 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:32:08.662 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:32:08.689 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:32:08.690 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 305 ms
+2024-12-31 10:32:08.787 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:32:08.801 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:32:08.806 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 0.477 seconds (process running for 215.337)
+2024-12-31 10:32:08.808 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-31 10:32:09.402 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:32:09.422 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:32:09.424 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:32:09.481 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:32:09.482 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1133 ms
+2024-12-31 10:32:09.881 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-12-31 10:32:09.902 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-31 10:32:09.920 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-31 10:32:09.940 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-31 10:32:39.680 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-31 10:32:39.681 INFO  [Thread-7] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-31 10:32:40.151 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Graceful shutdown complete
+2024-12-31 10:32:40.247 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 20756 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:32:40.247 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:32:40.477 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:32:40.478 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:32:40.478 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:32:40.506 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:32:40.506 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 256 ms
+2024-12-31 10:32:40.573 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:32:40.583 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:32:40.587 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 0.392 seconds (process running for 247.118)
+2024-12-31 10:32:40.589 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-31 10:32:40.608 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 14696 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:32:40.610 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:32:40.666 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:32:40.666 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:32:41.674 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:32:41.690 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:32:41.690 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:32:41.748 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:32:41.749 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
+2024-12-31 10:32:42.112 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-12-31 10:32:42.132 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-31 10:32:42.149 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-31 10:32:42.170 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-31 10:33:07.385 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-31 10:33:07.387 INFO  [Thread-11] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-31 10:33:07.873 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Graceful shutdown complete
+2024-12-31 10:33:07.959 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 20756 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:33:07.959 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:33:08.157 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:33:08.158 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:33:08.158 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:33:08.184 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:33:08.184 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 221 ms
+2024-12-31 10:33:08.187 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 8220 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:33:08.190 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:33:08.243 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:33:08.243 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:33:08.247 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:33:08.256 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:33:08.263 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 0.346 seconds (process running for 274.794)
+2024-12-31 10:33:08.264 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-31 10:33:09.250 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:33:09.265 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:33:09.266 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:33:09.321 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:33:09.322 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1079 ms
+2024-12-31 10:33:09.695 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-12-31 10:33:09.715 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-31 10:33:09.730 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-31 10:33:09.753 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-31 10:33:23.909 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-12-31 10:33:23.911 INFO  [Thread-15] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-31 10:33:24.428 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Graceful shutdown complete
+2024-12-31 10:33:24.531 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 20756 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:33:24.531 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:33:24.715 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:33:24.716 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:33:24.716 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:33:24.738 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:33:24.740 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 206 ms
+2024-12-31 10:33:24.795 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:33:24.804 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:33:24.808 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 0.33 seconds (process running for 291.338)
+2024-12-31 10:33:24.809 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-31 10:33:25.524 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 7804 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:33:25.527 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:33:25.580 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:33:25.580 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:33:26.588 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:33:26.603 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:33:26.604 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:33:26.663 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:33:26.663 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
+2024-12-31 10:33:27.032 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-12-31 10:33:27.051 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-31 10:33:27.068 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-31 10:33:27.090 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-31 10:57:02.139 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 2276 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:57:02.142 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:57:02.177 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:57:02.177 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:57:02.805 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:57:02.815 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:57:02.815 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:57:02.851 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:57:02.851 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 673 ms
+2024-12-31 10:57:03.081 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:57:03.102 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:57:03.109 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 1.337 seconds (process running for 1.82)
+2024-12-31 10:57:19.400 INFO  [SpringApplicationShutdownHook] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-31 10:57:19.639 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Graceful shutdown complete
+2024-12-31 10:57:22.060 INFO  [restartedMain] top.xym.springboot.logback.Application : Starting Application using Java 17.0.12 with PID 21320 (D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-logback\target\classes started by 12862 in D:\Downloads\houduan\backendqy\Spring-boot-practice)
+2024-12-31 10:57:22.062 INFO  [restartedMain] top.xym.springboot.logback.Application : No active profile set, falling back to 1 default profile: "default"
+2024-12-31 10:57:22.092 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-31 10:57:22.092 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-31 10:57:22.701 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-12-31 10:57:22.710 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-12-31 10:57:22.710 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 10:57:22.747 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-12-31 10:57:22.747 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 655 ms
+2024-12-31 10:57:22.971 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-12-31 10:57:22.993 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 10:57:23.000 INFO  [restartedMain] top.xym.springboot.logback.Application : Started Application in 1.29 seconds (process running for 1.736)
+2024-12-31 11:00:16.891 INFO  [SpringApplicationShutdownHook] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-31 11:00:17.133 INFO  [tomcat-shutdown] org.springframework.boot.web.embedded.tomcat.GracefulShutdown : Graceful shutdown complete

@@ -21,3 +21,6 @@
     - 示例：完整的 application.yml 配置
   - 模板引擎 Thymeleaf
   - 待办清单练习
+- spring-boot-logging：日志模块
+  - logback日志框架配置
+    - application配置文件实现日志配置
