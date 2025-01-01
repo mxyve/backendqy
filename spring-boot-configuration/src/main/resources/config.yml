@@ -1,0 +1,2 @@
+#法一
+java -jar myapp.jar --spring.config.location=classpath:/external/config.yml

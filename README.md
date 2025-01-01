@@ -31,10 +31,12 @@
     - 配置文件占位符
   - YAML 配置绑定变量两种方式
     - 使用 @Value 获取配置值
-    - 使用@ConfigurationProperties 获取配置值
+    - 使用 @ConfigurationProperties 获取配置值
   - 配置属性值数据绑定校验
     - 对绑定的属性值进行校验
     - 常用的校验注解
   - 较复杂的配置示例 
   - 加载额外配置文件
     - 加载 properties 配置文件
+    - 加载 yaml 配置文件
+      - 方式一：使用 spring.config.location 指定 YAML 文件
