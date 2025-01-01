@@ -1,0 +1,10 @@
+#通过编程方式加载外部的.yaml文件
+family:
+  family-name: "happy family"
+  father: ${father.name:zhangsan}
+  mother: "Rose"
+  child: "Tom"
+  age: ${random.int(5,10)}
+
+father:
+  name: "Jack"

@@ -8,12 +8,14 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
+import top.xym.springboot.configuration.loader.YamlPropertyLoader;
 
 @Data
 @Component
 @Validated
 @ConfigurationProperties(prefix = "family") // 表示配置的整体前缀
-@PropertySource(value = {"classpath:family.properties"})
+//@PropertySource(value = {"classpath:family.properties"})
+@PropertySource(value = {"classpath:family.yml"}, factory = YamlPropertyLoader.class)
 public class Family {
 //    @Value("${family.family-name}")
     @Length(min = 5, max = 20, message = "家庭名长度必须位于5到20之间")

@@ -31,7 +31,7 @@ student:
     name: 虎子
     age: 11
 
-#法二
-spring:
-  config:
-    import: class:/external/config.yml
+##法二
+#spring:
+#  config:
+#    import: class:/external/config.yml
