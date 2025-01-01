@@ -23,5 +23,8 @@
   - 待办清单练习
 - spring-boot-logging：日志模块
   - logback日志框架配置
-    - application配置文件实现日志配置
-    - 使用logback-spring.xml实现日志配置
+    - application 配置文件实现日志配置
+    - 使用 logback-spring.xml 实现日志配置
+- spring-boot-config：配置管理模块
+  - YAML 语法及占位符语法
+    - YAML 示例

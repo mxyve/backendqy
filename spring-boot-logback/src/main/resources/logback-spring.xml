@@ -6,7 +6,8 @@
         <encoder>
             <!-- 控制台输出格式 -->
             <pattern>
-                %red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)
+                %red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level)
+                %boldMagenta(%logger{10}) - %cyan(%msg%n)
             </pattern>
         </encoder>
     </appender>
