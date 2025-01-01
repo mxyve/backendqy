@@ -1,9 +1,9 @@
-family:
-  family-name: "happy family"
-  father: "Jack"
-  mother: "Rose"
-  child: "Tom"
-  age: ${random.int(5,10)}
+#family:
+#  family-name: "happy family"
+#  father: "Jack"
+#  mother: "Rose"
+#  child: "Tom"
+#  age: ${random.int(5,10)}
 
 person:
   first-name: "${first.name:John}"
