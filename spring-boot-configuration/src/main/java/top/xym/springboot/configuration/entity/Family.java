@@ -2,20 +2,22 @@ package top.xym.springboot.configuration.entity;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Data
 @Component
+@ConfigurationProperties(prefix = "family") // 表示配置的整体前缀
 public class Family {
-    @Value("${family.family-name}")
+//    @Value("${family.family-name}")
     private String familyName;
 
-    @Value("${family.father}")
+//    @Value("${family.father}")
     private String father;
 
-    @Value("${family.mother}")
+//    @Value("${family.mother}")
     private String mother;
 
-    @Value("${family.child}")
+//    @Value("${family.child}")
     private String child;
 }

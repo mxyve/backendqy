@@ -29,3 +29,6 @@
   - YAML 语法及占位符语法
     - YAML 示例
     - 配置文件占位符
+  - YAML 配置绑定变量两种方式
+    - 使用 @Value 获取配置值
+    - 使用@ConfigurationProperties 获取配置值
