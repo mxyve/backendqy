@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 public class Family {
-    @Value("${family.family-name")
+    @Value("${family.family-name}")
     private String familyName;
 
     @Value("${family.father}")

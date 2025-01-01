@@ -3,3 +3,15 @@ family:
   father: "Jack"
   mother: "Rose"
   child: "Tom"
+
+person:
+  first-name: "${first.name:John}"
+  last-name: "${last.name:Doe}"
+  age: "${random.int(20,50)}"
+  id: "${random.uuid}"
+  phone: "${phone.number:1234567890}"
+
+first:
+  name: miao
+last:
+  name: xinyu

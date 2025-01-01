@@ -28,3 +28,4 @@
 - spring-boot-config：配置管理模块
   - YAML 语法及占位符语法
     - YAML 示例
+    - 配置文件占位符
