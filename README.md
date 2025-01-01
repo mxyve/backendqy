@@ -41,3 +41,4 @@
     - 加载 yaml 配置文件
       - 方式一：使用 spring.config.location 指定 YAML 文件
       - 方式二：YamlPropertySourceLoader 手动加载
+    - 通过 YamlPropertySourceLoader 手动加载
