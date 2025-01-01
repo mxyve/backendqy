@@ -32,3 +32,5 @@
   - YAML 配置绑定变量两种方式
     - 使用 @Value 获取配置值
     - 使用@ConfigurationProperties 获取配置值
+  - 配置属性值数据绑定校验
+    - 对绑定的属性值进行校验
