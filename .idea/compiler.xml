@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-logback" />
+        <module name="spring-boot-hutool" />
         <module name="spring-boot-configuration" />
         <module name="spring-boot-quickstart" />
       </profile>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-boot-practice" options="" />
       <module name="spring-boot-configuration" options="-parameters" />
+      <module name="spring-boot-hutool" options="-parameters" />
       <module name="spring-boot-logback" options="-parameters" />
       <module name="spring-boot-quickstart" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
