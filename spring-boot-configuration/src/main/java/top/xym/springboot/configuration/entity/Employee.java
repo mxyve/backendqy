@@ -32,4 +32,12 @@ public class Employee {
     @Value("#{${employee.age}['three'] != null ? ${employee.age}['three']: 30}")
     private Integer ageWithDefaultValue;
 
+    // 获取 JAVA_HOME 目录
+    @Value("#{systemProperties['java.home']}")
+    private String javaHome;
+
+    // 获取系统用户工作目录
+    @Value("#{systemProperties['user.dir']}")
+    private String userDir;
+
 }

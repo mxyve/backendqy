@@ -44,3 +44,4 @@
     - 使用 @ImportResource 加载 Spring 的 XML 配置文件
   - 使用 SpEL 表达式绑定配置项
     - SpEL 结合 @Value 注解读取配置文件属性
+    - SpEL 结合 @Value 注解读取系统环境变量
