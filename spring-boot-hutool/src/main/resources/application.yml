@@ -2,3 +2,5 @@
 custom:
   qrcode:
     content: "https://www.baidu.com"
+  log:
+    level: "INFO"
