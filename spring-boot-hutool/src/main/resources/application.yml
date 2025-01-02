@@ -4,3 +4,5 @@ custom:
     content: "https://www.baidu.com"
   log:
     level: "INFO"
+  backup:
+    location: D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-hutool\log\backup.log # 定义文件备份路径
