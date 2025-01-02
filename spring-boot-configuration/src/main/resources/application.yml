@@ -1,0 +1,59 @@
+#family:
+#  family-name: "happy family"
+#  father: "Jack"
+#  mother: "Rose"
+#  child: "Tom"
+#  age: ${random.int(5,10)}
+
+person:
+  first-name: "${first.name:John}"
+  last-name: "${last.name:Doe}"
+  age: "${random.int(20,50)}"
+  id: "${random.uuid}"
+  phone: "${phone.number:1234567890}"
+
+first:
+  name: miao
+last:
+  name: xinyu
+
+student:
+  name: 张小飞
+  age: 20
+  happy: true
+  birth: 2004/01/01
+  map: {k1: v1,k2: v2}
+  list:
+    - code
+    - read
+    - music
+  dog:
+    name: 虎子
+    age: 11
+
+##法二
+#spring:
+#  config:
+#    import: class:/external/config.yml
+
+# 需要使用的配置文件
+spring:
+  profiles:
+    active: dev
+
+db:
+  url: jdbc:mysql://localhost:6033/spring_boot?useSSL=false&serverTimezone=UTC
+  username: root
+  password: 123456
+  driver-class-name: com.mysql.cj.jdbc.Driver
+
+jwt:
+  secret: mySecretKey # JET 密钥
+  expiration: 3600000 # 1小时，单位为毫秒
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-nanjing.aliyuncs.com  # 你的OSS服务地址,根据地区修改
+    accessKeyId:  # 你的Access Key ID
+    accessKeySecret:  # 你的Access Key Secret
+    bucketName:  # 你的Bucket名称

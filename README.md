@@ -23,5 +23,31 @@
   - 待办清单练习
 - spring-boot-logging：日志模块
   - logback日志框架配置
-    - application配置文件实现日志配置
-    - 使用logback-spring.xml实现日志配置
+    - application 配置文件实现日志配置
+    - 使用 logback-spring.xml 实现日志配置
+- spring-boot-config：配置管理模块
+  - YAML 语法及占位符语法
+    - YAML 示例
+    - 配置文件占位符
+  - YAML 配置绑定变量两种方式
+    - 使用 @Value 获取配置值
+    - 使用 @ConfigurationProperties 获取配置值
+  - 配置属性值数据绑定校验
+    - 对绑定的属性值进行校验
+    - 常用的校验注解
+  - 较复杂的配置示例 
+  - 加载额外配置文件
+    - 加载 properties 配置文件
+    - 加载 yaml 配置文件
+      - 方式一：使用 spring.config.location 指定 YAML 文件
+      - 方式二：YamlPropertySourceLoader 手动加载
+    - 使用 @ImportResource 加载 Spring 的 XML 配置文件
+  - 使用 SpEL 表达式绑定配置项
+    - SpEL 结合 @Value 注解读取配置文件属性
+    - SpEL 结合 @Value 注解读取系统环境变量
+    - 读取 properties 文件中文乱码问题的解决
+  - profile 不同环境使用不同配置
+  - 配置文件的加载优先级
+  - 综合练习
+  - JWT 加密
+  - OSS 文件上传
