@@ -54,6 +54,12 @@
             <version>5.8.11</version>  <!-- 根据最新版本调整 -->
         </dependency>
 
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>3.13.0</version> <!-- 根据最新版本调整 -->
+        </dependency>
+
     </dependencies>
 
 </project>

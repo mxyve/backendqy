@@ -50,3 +50,10 @@ db:
 jwt:
   secret: mySecretKey # JET 密钥
   expiration: 3600000 # 1小时，单位为毫秒
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-nanjing.aliyuncs.com  # 你的OSS服务地址,根据地区修改
+    accessKeyId:  # 你的Access Key ID
+    accessKeySecret:  # 你的Access Key Secret
+    bucketName:  # 你的Bucket名称
