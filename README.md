@@ -45,3 +45,5 @@
   - 使用 SpEL 表达式绑定配置项
     - SpEL 结合 @Value 注解读取配置文件属性
     - SpEL 结合 @Value 注解读取系统环境变量
+    - 读取 properties 文件中文乱码问题的解决
+  - profile 不同环境使用不同配置
