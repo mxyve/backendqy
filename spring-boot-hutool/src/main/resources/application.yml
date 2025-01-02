@@ -1,0 +1,17 @@
+# 存储要生成的二维码的信息
+custom:
+  qrcode:
+    content: "https://www.baidu.com"
+  log:
+    level: "INFO"
+  backup:
+    location: D:\Downloads\houduan\backendqy\Spring-boot-practice\spring-boot-hutool\log\backup.log # 定义文件备份路径
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1286280961@qq.com
+    password: dnnqkcjdyoobbaac
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
