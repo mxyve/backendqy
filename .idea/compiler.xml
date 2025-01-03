@@ -10,6 +10,7 @@
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-logback" />
         <module name="spring-boot-jpa" />
+        <module name="spring-boot-mybatis" />
         <module name="spring-boot-hutool" />
         <module name="spring-boot-configuration" />
         <module name="spring-boot-quickstart" />
@@ -23,6 +24,7 @@
       <module name="spring-boot-hutool" options="-parameters" />
       <module name="spring-boot-jpa" options="-parameters" />
       <module name="spring-boot-logback" options="-parameters" />
+      <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-quickstart" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
     </option>

@@ -57,4 +57,5 @@
   - 练习3：自动备份配置文件
   - 练习4：读取文件内容并发送邮件
 - 数据库
-  - 1. 整合 Spring Data JPA
+  1. 整合 Spring Data JPA
+  2. 整合 Mybatis
