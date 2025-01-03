@@ -4,6 +4,7 @@ import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import top.xym.springboot.mybatis.entity.Course;
 import top.xym.springboot.mybatis.entity.Student;
 
 import java.time.LocalDate;
@@ -82,5 +83,14 @@ class StudentMapperTest {
     void getStudentManyToOne() {
         Student student = studentMapper.getStudentManyToOne(1001);;
         log.info("{},{},{}", student.getStudentName(),student.getHometown(), student.getClazz().getClazzName());
+    }
+
+    @Test
+    void getStudent() {
+        Student student = studentMapper.getStudent(1001);
+        log.info("{},{}", student.getStudentName(),student.getHometown());
+        log.info("{}", student.getClazz().getClazzName());
+        List<Course> courses = student.getCourses();
+        courses.forEach(course -> log.info("{}", course.getCourseName()));
     }
 }
