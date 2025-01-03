@@ -59,3 +59,4 @@
 - 数据库
   1. 整合 Spring Data JPA
   2. 整合 Mybatis
+     2.1 一对一：教师和班级
