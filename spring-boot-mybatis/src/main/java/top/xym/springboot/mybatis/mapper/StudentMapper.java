@@ -21,4 +21,12 @@ public interface StudentMapper {
     int batchUpdate(@Param("students") List<Student> students);
 
     List<Student> selectByDynamicSql(Student student);
+
+    /**
+     * 根据学生id查询（关联查询所属班级信息）
+     * @param studentId 学生id
+     * @return 学生信息
+     */
+    Student getStudentManyToOne(int studentId);
+
 }

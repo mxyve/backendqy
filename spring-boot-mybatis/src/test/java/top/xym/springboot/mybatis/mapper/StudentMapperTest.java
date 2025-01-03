@@ -77,4 +77,10 @@ class StudentMapperTest {
         List<Student> students = studentMapper.selectByDynamicSql(student);
         students.forEach(System.out::println);
     }
+
+    @Test
+    void getStudentManyToOne() {
+        Student student = studentMapper.getStudentManyToOne(1001);;
+        log.info("{},{},{}", student.getStudentName(),student.getHometown(), student.getClazz().getClazzName());
+    }
 }
