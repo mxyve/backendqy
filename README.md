@@ -72,3 +72,4 @@
 - spring-boot-exception: 异常处理模块  
   1. 自定义异常和相关数据结构
   2. 通用全局异常处理逻辑
+  3. Spring Validation 数据校验
