@@ -69,3 +69,8 @@
   3. 整合 Mybatis Plus  
      3.1 一对一：教师和班级  
      3.2 多对多：学生和课程
+- spring-boot-exception: 异常处理模块  
+  1. 自定义异常和相关数据结构
+  2. 通用全局异常处理逻辑
+  3. Spring Validation 数据校验
+  4. 自定义校验注解
