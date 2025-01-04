@@ -1,0 +1,13 @@
+# 数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:6033/spring_boot?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+# MP 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰下划线转换
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # SQL日志输出,调试用
