@@ -23,6 +23,7 @@
         <module>spring-boot-jpa</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-mybatis-plus</module>
+        <module>spring-boot-exception</module>
     </modules>
 
     <properties>
