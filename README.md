@@ -75,4 +75,6 @@
   3. Spring Validation 数据校验
   4. 自定义校验注解
 - spring-boot-redis：Redis 模块  
-  1. 整合 spring-data-redis
+  1. 整合 spring-data-redis  
+  2. 使用模板类操作数据  
+     2.1 StringRedisTemplate 模板封装类
