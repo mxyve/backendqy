@@ -16,6 +16,7 @@
         <module name="spring-boot-hutool" />
         <module name="spring-boot-configuration" />
         <module name="spring-boot-quickstart" />
+        <module name="spring-boot-reids" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +31,7 @@
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-plus" options="-parameters" />
       <module name="spring-boot-quickstart" options="-parameters" />
+      <module name="spring-boot-reids" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
     </option>
   </component>

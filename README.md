@@ -74,3 +74,5 @@
   2. 通用全局异常处理逻辑
   3. Spring Validation 数据校验
   4. 自定义校验注解
+- spring-boot-redis：Redis 模块  
+  1. 整合 spring-data-redis
