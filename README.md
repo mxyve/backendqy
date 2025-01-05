@@ -77,4 +77,5 @@
 - spring-boot-redis：Redis 模块  
   1. 整合 spring-data-redis  
   2. 使用模板类操作数据  
-     2.1 StringRedisTemplate 模板封装类
+     2.1 StringRedisTemplate 模板封装类  
+     2.2 RedisTemplate 模板封装类
