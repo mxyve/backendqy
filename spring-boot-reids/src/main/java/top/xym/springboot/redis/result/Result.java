@@ -1,7 +1,7 @@
 package top.xym.springboot.redis.result;
 
 import lombok.Data;
-import top.xym.springboot.exception.enums.ErrorCode;
+import top.xym.springboot.redis.enums.ErrorCode;
 
 // 请求接口统一响应数据结构
 @Data

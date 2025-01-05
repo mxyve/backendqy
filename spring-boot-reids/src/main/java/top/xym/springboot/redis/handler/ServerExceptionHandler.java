@@ -6,9 +6,9 @@ import org.springframework.validation.BindException;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import top.xym.springboot.exception.enums.ErrorCode;
-import top.xym.springboot.exception.exception.ServerException;
-import top.xym.springboot.exception.result.Result;
+import top.xym.springboot.redis.enums.ErrorCode;
+import top.xym.springboot.redis.exception.ServerException;
+import top.xym.springboot.redis.result.Result;
 
 @Slf4j
 @RestControllerAdvice

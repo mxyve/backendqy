@@ -2,7 +2,7 @@ package top.xym.springboot.redis.exception;
 // 自定义异常
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import top.xym.springboot.exception.enums.ErrorCode;
+import top.xym.springboot.redis.enums.ErrorCode;
 
 import java.io.Serial;
 

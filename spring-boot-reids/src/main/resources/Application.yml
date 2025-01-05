@@ -16,7 +16,7 @@ xym:
     ccp:
       serverIp: app.cloopen.com
       port: 8883
-      accountSID:
-      accountToken:
-      appId:
+      accountSID: 2c94811c9035ff9f0192adc3c9217d46
+      accountToken: b45e565c34a844d3848b0f86a88c5a25
+      appId: 2c94811c9035ff9f0192adc3ca9a7d4d
       templateId: 1
