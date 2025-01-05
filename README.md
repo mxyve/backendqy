@@ -78,5 +78,7 @@
   1. 整合 spring-data-redis  
   2. 使用模板类操作数据  
      2.1 StringRedisTemplate 模板封装类  
-     2.2 RedisTemplate 模板封装类
-     2.3 解决 key-value 乱码问题
+     2.2 RedisTemplate 模板封装类  
+     2.3 解决 key-value 乱码问题  
+  3. 短信发送综合案例  
+     3.1 基础类参数方法准备
