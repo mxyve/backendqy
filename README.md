@@ -74,3 +74,6 @@
   2. 通用全局异常处理逻辑
   3. Spring Validation 数据校验
   4. 自定义校验注解
+- spring-boot-task: 定时任务模块
+  1. 使用 Timer 实现定时任务  
+     1.1 定时发送提醒消息
