@@ -3,6 +3,7 @@ package top.xym.springboot.task.config;
 import org.quartz.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import top.xym.springboot.task.task.QuartzSimpleTask;
 
 @Configuration
 public class QuartzSimpleConfig {
