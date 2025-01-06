@@ -12,6 +12,10 @@ spring:
     properties:
       mail.smtp.auth: true
       mail.smtp.starttls.enable: true
+  quartz:
+    job-store-type: JDBC # 数据库存储 quartz 任务配置
+    jdbc:
+      initialize-schema: NEVER # 自动初始化表结构，第一次启动的时候这里写 always
 
 # 配置 MP 框架日志级别
 logging:
