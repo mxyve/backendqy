@@ -16,6 +16,6 @@ public class ReminderTimer {
             }
         };
         // 每隔1小时提醒用户
-        timer.schedule(task, 0, 3000);
+        timer.schedule(task, 0, 3600 * 1000);
     }
 }
