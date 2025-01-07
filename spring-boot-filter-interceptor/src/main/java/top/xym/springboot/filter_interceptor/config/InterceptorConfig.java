@@ -9,17 +9,17 @@ import top.xym.springboot.filter_interceptor.interceptor.*;
 @Configuration
 @AllArgsConstructor
 public class InterceptorConfig implements WebMvcConfigurer {
-//    private final LoggingInterceptor loggingInterceptor;
+    private final LoggingInterceptor loggingInterceptor;
 //    private final AuthInterceptor authInterceptor;
 //    private final CORSInterceptor corsInterceptor;
 //    private final RequestModificationInterceptor requestModificationInterceptor;
-    private final ResponseModificationInterceptor responseModificationInterceptor;
+//    private final ResponseModificationInterceptor responseModificationInterceptor;
 
     public void addInterceptors(InterceptorRegistry registry) {
-//        registry.addInterceptor(loggingInterceptor).addPathPatterns("/**");
+        registry.addInterceptor(loggingInterceptor).addPathPatterns("/**");
 //        registry.addInterceptor(authInterceptor).addPathPatterns("/**");
 //        registry.addInterceptor((corsInterceptor)).addPathPatterns("/**");
 //        registry.addInterceptor(requestModificationInterceptor).addPathPatterns("/**");
-    registry.addInterceptor(responseModificationInterceptor).addPathPatterns("/**");
+//        registry.addInterceptor(responseModificationInterceptor).addPathPatterns("/**");
     }
 }

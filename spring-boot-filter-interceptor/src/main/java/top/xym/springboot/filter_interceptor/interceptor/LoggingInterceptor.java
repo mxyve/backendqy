@@ -19,7 +19,7 @@ public class LoggingInterceptor implements HandlerInterceptor {
         LocalDateTime timestamp = LocalDateTime.now();
         log.info("请求已到达拦截器：Path={},IP={},Time={}", path, clientIp, timestamp);
         // 继续执行
-        return false;
+        return true;
     }
 
     @Override
