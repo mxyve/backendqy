@@ -3,6 +3,7 @@ package top.xym.springboot.filter_interceptor.config;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import top.xym.springboot.filter_interceptor.filter.AuthFilter;
 import top.xym.springboot.filter_interceptor.filter.CustomFilter;
 import top.xym.springboot.filter_interceptor.filter.LoggingFilter;
 
@@ -19,12 +20,21 @@ public class FilterConfig {
 //        return registrationBean;
 //    }
 
+//    @Bean
+//    public FilterRegistrationBean<LoggingFilter> loggingFilter() {
+//        FilterRegistrationBean<LoggingFilter> registrationBean = new FilterRegistrationBean<>();
+//        registrationBean.setFilter(new LoggingFilter());
+//        registrationBean.addUrlPatterns("/*");
+//        registrationBean.setOrder(1);
+//        return registrationBean;
+//    }
+
     @Bean
-    public FilterRegistrationBean<LoggingFilter> loggingFilter() {
-        FilterRegistrationBean<LoggingFilter> registrationBean = new FilterRegistrationBean<>();
-        registrationBean.setFilter(new LoggingFilter());
+    public FilterRegistrationBean<AuthFilter> authFilter() {
+        FilterRegistrationBean<AuthFilter> registrationBean = new FilterRegistrationBean<>();
+        registrationBean.setFilter(new AuthFilter());
         registrationBean.addUrlPatterns("/*");
-        registrationBean.setOrder(1);
+        registrationBean.setOrder(2);
         return registrationBean;
     }
 }
