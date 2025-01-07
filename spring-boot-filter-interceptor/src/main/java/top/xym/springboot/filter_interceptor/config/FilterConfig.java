@@ -4,6 +4,7 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import top.xym.springboot.filter_interceptor.filter.AuthFilter;
+import top.xym.springboot.filter_interceptor.filter.CORSFilter;
 import top.xym.springboot.filter_interceptor.filter.CustomFilter;
 import top.xym.springboot.filter_interceptor.filter.LoggingFilter;
 
@@ -35,6 +36,15 @@ public class FilterConfig {
         registrationBean.setFilter(new AuthFilter());
         registrationBean.addUrlPatterns("/*");
         registrationBean.setOrder(2);
+        return registrationBean;
+    }
+
+    @Bean
+    public FilterRegistrationBean<CORSFilter> corsFilter() {
+        FilterRegistrationBean<CORSFilter> registrationBean = new FilterRegistrationBean<>();
+        registrationBean.setFilter(new CORSFilter());
+        registrationBean.addUrlPatterns("/*");
+        registrationBean.setOrder(3);
         return registrationBean;
     }
 }
