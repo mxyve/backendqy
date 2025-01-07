@@ -89,4 +89,6 @@
   5. Quartz 动态定时任务（数据库持久化）
 - spring-boot-filter-interceptor: 过滤器和拦截器模块
   1. 过滤器  
-     1.1 过滤器的基本用法
+     1.1 过滤器的基本用法  
+         1.1.1 方法一：使用 @Bean 注册过滤器  
+         1.1.2 方法二：使用 @WebFilter 注释

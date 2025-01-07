@@ -1,11 +1,13 @@
 package top.xym.springboot.filter_interceptor.filter;
 // 创建过滤器类
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebFilter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 
 @Slf4j
+@WebFilter(urlPatterns = "/*") // 拦截所有请求
 public class CustomFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
