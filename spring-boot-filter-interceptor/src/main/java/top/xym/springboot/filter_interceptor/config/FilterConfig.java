@@ -1,12 +1,13 @@
-//package top.xym.springboot.filter_interceptor.config;
-//
-//import org.springframework.boot.web.servlet.FilterRegistrationBean;
-//import org.springframework.context.annotation.Bean;
-//import org.springframework.context.annotation.Configuration;
-//import top.xym.springboot.filter_interceptor.filter.CustomFilter;
-//
-//@Configuration
-//public class FilterConfig {
+package top.xym.springboot.filter_interceptor.config;
+
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import top.xym.springboot.filter_interceptor.filter.CustomFilter;
+import top.xym.springboot.filter_interceptor.filter.LoggingFilter;
+
+@Configuration
+public class FilterConfig {
 //    @Bean
 //    public FilterRegistrationBean<CustomFilter> customFilterRegistration() {
 //        FilterRegistrationBean<CustomFilter> registrationBean = new FilterRegistrationBean<>();
@@ -17,4 +18,13 @@
 //        registrationBean.setOrder(1);
 //        return registrationBean;
 //    }
-//}
+
+    @Bean
+    public FilterRegistrationBean<LoggingFilter> loggingFilter() {
+        FilterRegistrationBean<LoggingFilter> registrationBean = new FilterRegistrationBean<>();
+        registrationBean.setFilter(new LoggingFilter());
+        registrationBean.addUrlPatterns("/*");
+        registrationBean.setOrder(1);
+        return registrationBean;
+    }
+}
