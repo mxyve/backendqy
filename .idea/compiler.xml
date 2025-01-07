@@ -11,6 +11,7 @@
         <module name="spring-boot-logback" />
         <module name="spring-boot-jpa" />
         <module name="spring-boot-task" />
+        <module name="spring-boot-filter-interceptor" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-plus" />
@@ -28,6 +29,7 @@
       <module name="Spring-boot-practice" options="" />
       <module name="spring-boot-configuration" options="-parameters" />
       <module name="spring-boot-exception" options="-parameters" />
+      <module name="spring-boot-filter-interceptor" options="-parameters" />
       <module name="spring-boot-hutool" options="-parameters" />
       <module name="spring-boot-jpa" options="-parameters" />
       <module name="spring-boot-logback" options="-parameters" />
