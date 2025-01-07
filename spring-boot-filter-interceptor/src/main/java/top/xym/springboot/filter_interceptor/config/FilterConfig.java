@@ -45,12 +45,21 @@ public class FilterConfig {
 //        return registrationBean;
 //    }
 
+//    @Bean
+//    public FilterRegistrationBean<RequestModificationFilter> requestModificationFilter() {
+//        FilterRegistrationBean<RequestModificationFilter> registrationBean = new FilterRegistrationBean<>();
+//        registrationBean.setFilter(new RequestModificationFilter());
+//        registrationBean.addUrlPatterns("/*");
+//        registrationBean.setOrder(4);
+//        return registrationBean;
+//    }
+
     @Bean
-    public FilterRegistrationBean<RequestModificationFilter> requestModificationFilter() {
-        FilterRegistrationBean<RequestModificationFilter> registrationBean = new FilterRegistrationBean<>();
-        registrationBean.setFilter(new RequestModificationFilter());
+    public FilterRegistrationBean<ResponseModificationFilter> responseModificationFilter() {
+        FilterRegistrationBean<ResponseModificationFilter> registrationBean = new FilterRegistrationBean<>();
+        registrationBean.setFilter(new ResponseModificationFilter());
         registrationBean.addUrlPatterns("/*");
-        registrationBean.setOrder(4);
+        registrationBean.setOrder(5);
         return registrationBean;
     }
 }
